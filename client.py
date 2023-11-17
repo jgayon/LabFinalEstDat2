@@ -3,6 +3,16 @@ import sys
 import math
 import socket
 import pickle
+import numpy as np
+# Initialize Pygame
+pygame.init()
+
+# Initialize the font module
+pygame.font.init()
+
+
+# Define the font
+myfont = pygame.font.Font(None, 30)
 
 # Define the colors
 BLUE = (0,0,255)
